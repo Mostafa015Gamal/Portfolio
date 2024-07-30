@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply border-solid bg-[#1abc9c] rounded-md transition-all duration-400;
+}
