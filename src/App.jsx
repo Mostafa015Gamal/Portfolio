@@ -11,7 +11,6 @@ import Notfoundpage from './components/Notfoundpage'
 import Home from './components/Home'
 
 let routers = createBrowserRouter([
-  {path: '*' , element: <Notfoundpage/>} ,
   {
     path:'Portfolio' , element: <Layout/>, children :[
       {index: true , element: <Home/>},
