@@ -27,27 +27,27 @@ export default function Portfolio() {
     <div className='grid grid-cols-3 pb-6 gap-10 w-[85%] mx-auto max-md:grid-cols-1 max-lg:grid-cols-2'>
       <div  className='cursor-pointer relative group'>
         <img src={img1} className='w-full rounded-lg' alt="" />
-        <div onClick={()=>getImg("./src/imgs/poert1.png")} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
+        <div onClick={()=>getImg(img1)} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
       </div>
       <div className='cursor-pointer relative group'>
         <img src={img2} className='w-full rounded-lg' alt="" />    
-        <div onClick={()=>getImg("./src/imgs/port2.png")} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
+        <div onClick={()=>getImg(img2)} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
       </div>
       <div className='cursor-pointer relative group'>
         <img src={img3} className='w-full rounded-lg' alt="" />
-        <div onClick={()=>getImg("./src/imgs/port3.png")} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
+        <div onClick={()=>getImg(img3)} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
       </div>
       <div className='cursor-pointer relative group'>
         <img src={img1} className='w-full rounded-lg' alt="" />
-        <div onClick={()=>getImg("./src/imgs/poert1.png")} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
+        <div onClick={()=>getImg(img1)} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
       </div>
       <div className='cursor-pointer relative group'>
         <img src={img2} className='w-full rounded-lg' alt="" />
-        <div onClick={()=>getImg("./src/imgs/port2.png")} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
+        <div onClick={()=>getImg(img2)} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
       </div>
       <div className='cursor-pointer relative group'>
         <img src={img3} className='w-full rounded-lg' alt="" />
-        <div onClick={()=>getImg("./src/imgs/port3.png")} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
+        <div onClick={()=>getImg(img3)} className='bg-[#29b197]/80 text-white w-full h-full rounded-lg start-0 top-0 absolute flex justify-center items-center transition-all duration-700 opacity-0 group-hover:opacity-100'><i className="fa-solid fa-plus text-8xl"></i></div>
       </div>
     </div>
     <div onClick={(e)=>closeDev(e)} className={`w-screen h-screen fixed top-0 z-50 bg-[#c2dbfe]/30 ${fixed} justify-center items-center`} >
